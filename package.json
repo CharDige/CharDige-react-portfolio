@@ -1,5 +1,6 @@
 {
   "name": "chardige-react-portfolio",
+  "homepage": "https://CharDige.github.io/CharDige-react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
