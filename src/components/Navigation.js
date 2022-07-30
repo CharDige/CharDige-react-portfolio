@@ -3,36 +3,38 @@ import '../styles/Navigation.css';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-        <ul className='nav nav-tabs'>
-            <li className='nav-item'>
-                <a href='#Aboutme'
-                onClick={() => handlePageChange('Aboutme')}
-                className={currentPage === 'Aboutme' ? 'nav-link active' : 'nav-link'}>
-                    About Me
-                </a>
-            </li>
-            <li className='nav-item'>
-                <a href='#Portfolio'
-                onClick={() => handlePageChange('Portfolio')}
-                className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
-                    Portfolio
-                </a>
-            </li>
-            <li className='nav-item'>
-                <a href='#Contact'
-                onClick={() => handlePageChange('Contact')}
-                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
-                    Contact
-                </a>
-            </li>
-            <li className='nav-item'>
-                <a href='#Resume'
-                onClick={() => handlePageChange('Resume')}
-                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
-                    Resume
-                </a>
-            </li>
-        </ul>
+        <nav className='navbar navbar-expand-lg'>
+            <div className='container-fluid nav-center'>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span>Menu</span>
+                </button>
+                <div className="collapse navbar-collapse nav-center" id="navbarNavAltMarkup">
+                    <div className='navbar-nav'>
+                        <a href='#Aboutme'
+                            onClick={() => handlePageChange('Aboutme')}
+                            className={currentPage === 'Aboutme' ? 'nav-link active' : 'nav-link'}>
+                            About Me
+                        </a>
+                        <a href='#Portfolio'
+                            onClick={() => handlePageChange('Portfolio')}
+                            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
+                            Portfolio
+                        </a>
+                        <a href='#Contact'
+                            onClick={() => handlePageChange('Contact')}
+                            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
+                            Contact
+                        </a>
+                        <a href='#Resume'
+                            onClick={() => handlePageChange('Resume')}
+                            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
+                            Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
     )
 }
 
