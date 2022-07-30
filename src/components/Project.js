@@ -32,6 +32,7 @@ export default function Project() {
         <div>
             <Header />
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            {renderPage()}
             <Footer />
         </div>
     )
