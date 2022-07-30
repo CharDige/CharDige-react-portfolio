@@ -1,6 +1,12 @@
 import React from "react";
 import Project from "./components/Project";
 
-const App = () => <Project />;
+function App() {
+  return (
+    <div>
+      <Project />
+    </div>
+  )
+}
 
 export default App;
