@@ -15,7 +15,7 @@ export default function Resume() {
                     <a href={resume} target='_blank' rel="noreferrer">Download a copy of my resume</a>.
                     <br></br>
                     <br></br>
-                    <h3>
+                    <h3 className='resume-title'>
                         Coding languages and tools
                     </h3>
                     <ul>
