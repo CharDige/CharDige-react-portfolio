@@ -5,6 +5,7 @@ import Aboutme from './pages/Aboutme';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Featureimage from './Featureimage';
 import Footer from './Footer';
 
 export default function Project() {
@@ -32,6 +33,7 @@ export default function Project() {
         <div>
             <Header />
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Featureimage />
             {renderPage()}
             <Footer />
         </div>
