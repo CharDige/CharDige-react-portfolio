@@ -1,0 +1,6 @@
+figure #hero {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
