@@ -5,7 +5,7 @@ export default function Aboutme() {
     return (
         <div className='row' id='margin-style'>
             <div className='col-12 col-md-3'>
-                <h2>
+                <h2 className='heading-style'>
                     About me
                 </h2>
             </div>
