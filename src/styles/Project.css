@@ -36,6 +36,15 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+p a {
+    color: var(--dark-colour);
+}
+
+h3 {
+    color: var(--yellow);
+    font-size: 30px;
+}
+
 /* Class selectors */
 .left-border {
     border-left: 5px solid var(--dark-colour);
@@ -94,6 +103,10 @@ h2 {
 
 /* Pseudo styling */
 .my-work-title a:hover {
+    color: var(--link-colour);
+}
+
+p a:hover {
     color: var(--link-colour);
 }
 
