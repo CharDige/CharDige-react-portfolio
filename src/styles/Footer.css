@@ -1,0 +1,24 @@
+/* Element selectors */
+footer {
+    text-align: center;
+    margin: 10px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Class selectors */
+.icon-style {
+    font-size: 35px;
+    margin: 10px;
+}
+
+.icon-link-style {
+    color: var(--dark-colour);
+}
+
+/* Pseudo styling */
+.icon-link-style:hover {
+    color: var(--link-colour);
+}
