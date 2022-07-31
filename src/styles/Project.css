@@ -36,7 +36,6 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-
 /* Class selectors */
 .left-border {
     border-left: 5px solid var(--dark-colour);
@@ -49,7 +48,7 @@ h2 {
 
 .img-styling {
     width: 50%;
-    height: 215px;
+    height: 300px;
     object-fit: cover;
     object-position: 50% 30%;
     border: 5px solid var(--dark-colour);
@@ -61,7 +60,6 @@ h2 {
     margin-left: 10px;
     margin-right: 10px;
 }
-
 
 /* Media queries for responsive web application for a large smartphones */
 @media screen and (max-width: 768px) {
