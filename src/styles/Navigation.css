@@ -34,6 +34,11 @@
     color: var(--light-colour);
 }
 
+.navbar-toggler.nav-button-style {
+    color: var(--light-colour);
+    font-size: 20px;
+}
+
 /* Pseudo styles */
 .nav-link.nav-link-style:hover {
     color: var(--link-colour);
@@ -45,4 +50,13 @@
 
 .nav-link.nav-link-style-active:focus {
     color: var(--link-colour);
+}
+
+.nav-button-style:hover {
+    color: var(--link-colour);
+}
+
+.navbar-toggler.nav-button-style:focus {
+    color: var(--link-colour);
+    box-shadow: none;
 }
