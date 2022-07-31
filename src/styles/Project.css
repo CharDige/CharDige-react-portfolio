@@ -59,10 +59,42 @@ h2 {
     padding-left: 20px !important;
 }
 
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+.portfolio-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border: 10px solid var(--dark-colour);
+}
+
+.portfolio-padding
+{
+    padding: 20px !important;
+}
+
+.my-work-title {
+    font-family: var(--heading-font-family);
+    padding: 20px;
+    background-color: var(--dark-colour);
+    font-size: 20px;
+}
+
+.my-work-title a {
+    color: var(--light-colour);
+}
+
 /* id selectors */
 #margin-style {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+/* Pseudo styling */
+.my-work-title a:hover {
+    color: var(--link-colour);
 }
 
 /* Media queries for responsive web application for a large smartphones */
