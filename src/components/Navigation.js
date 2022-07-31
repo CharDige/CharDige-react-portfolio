@@ -5,7 +5,7 @@ function Navigation({ currentPage, handlePageChange }) {
     return (
         <nav className='navbar navbar-expand-lg nav-color'>
             <div className='container-fluid nav-center'>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler nav-button-style" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span>Menu</span>
                 </button>
                 <div className="collapse navbar-collapse nav-center" id="navbarNavAltMarkup">
