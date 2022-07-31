@@ -18,3 +18,31 @@
 .navbar>.container-fluid.nav-center {
     justify-content: center;
 }
+
+.nav-color {
+    background-color: var(--dark-colour);
+}
+
+.nav-link.nav-link-style {
+    color: var(--light-colour);
+    font-size: 20px;
+}
+
+.nav-link.nav-link-style-active {
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--light-colour);
+}
+
+/* Pseudo styles */
+.nav-link.nav-link-style:hover {
+    color: var(--link-colour);
+}
+
+.nav-link.nav-link-style-active:hover {
+    color: var(--link-colour);
+}
+
+.nav-link.nav-link-style-active:focus {
+    color: var(--link-colour);
+}
