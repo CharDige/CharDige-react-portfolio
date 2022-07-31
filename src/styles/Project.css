@@ -40,11 +40,6 @@ p a {
     color: var(--dark-colour);
 }
 
-h3 {
-    color: var(--yellow);
-    font-size: 30px;
-}
-
 /* Class selectors */
 .left-border {
     border-left: 5px solid var(--dark-colour);
@@ -93,6 +88,15 @@ h3 {
 
 .my-work-title a {
     color: var(--light-colour);
+}
+
+.resume-title {
+    color: var(--yellow);
+    font-size: 30px;
+}
+
+.contact-icon {
+    font-size: 35px;
 }
 
 /* id selectors */
