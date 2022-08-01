@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/CharDige-react-portfolio/static/css/main.4db743eb.css",
+    "main.js": "/CharDige-react-portfolio/static/js/main.72024d88.js",
+    "static/media/my-photo.jpg": "/CharDige-react-portfolio/static/media/my-photo.add6fbbc0c37b7d02164.jpg",
+    "static/media/travel-planner.jpg": "/CharDige-react-portfolio/static/media/travel-planner.6fce0e91894d2e448d46.jpg",
+    "static/media/sklhub.PNG": "/CharDige-react-portfolio/static/media/sklhub.2686ba744b2eb6c3b11d.PNG",
+    "static/media/header-image.jpg": "/CharDige-react-portfolio/static/media/header-image.f9bed637ac7741e2a3fa.jpg",
+    "static/media/bootstrap-icons.woff?": "/CharDige-react-portfolio/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/charlotte-d-resume.pdf": "/CharDige-react-portfolio/static/media/charlotte-d-resume.cf517c181241d4fa7a2a.pdf",
+    "static/media/bootstrap-icons.woff2?": "/CharDige-react-portfolio/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/javascript-code-quiz.PNG": "/CharDige-react-portfolio/static/media/javascript-code-quiz.d8cb4784c42ee2d92994.PNG",
+    "static/media/weather-dashboard.png": "/CharDige-react-portfolio/static/media/weather-dashboard.b3be2a6563cdff5ad484.png",
+    "static/media/tech-blog.PNG": "/CharDige-react-portfolio/static/media/tech-blog.80b271edf9fa92010f4e.PNG",
+    "static/media/jate.PNG": "/CharDige-react-portfolio/static/media/jate.3528229a15ed932dd65f.PNG",
+    "index.html": "/CharDige-react-portfolio/index.html",
+    "main.4db743eb.css.map": "/CharDige-react-portfolio/static/css/main.4db743eb.css.map",
+    "main.72024d88.js.map": "/CharDige-react-portfolio/static/js/main.72024d88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4db743eb.css",
+    "static/js/main.72024d88.js"
+  ]
+}
