@@ -14,17 +14,20 @@
 .nav-link.nav-link-style {
     color: var(--light-colour);
     font-size: 20px;
+    font-family: var(--body-font-family);
 }
 
 .nav-link.nav-link-style-active {
     font-size: 20px;
     font-weight: bolder;
     color: var(--light-colour);
+    font-family: var(--body-font-family);
 }
 
 .navbar-toggler.nav-button-style {
     color: var(--light-colour);
     font-size: 20px;
+    font-family: var(--body-font-family);
 }
 
 /* Pseudo styles */
