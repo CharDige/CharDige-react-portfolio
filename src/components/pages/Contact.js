@@ -64,7 +64,7 @@ export default function Contact() {
 
             <div className='col-12 col-md-9 left-border'>
                 <p>
-                    Got a challenge I can help with, a question about my coding skills, or maybe you just want to ask about me favourite book?
+                    Got a challenge I can help with, a question about my coding skills, or maybe you just want to ask about my favourite book?
                     <br></br>
                     <br></br>
                     Fill out and submit the below form to get into contact with me. Or, flick me an email at <a href="mailto:chardige23@gmail.com">chardige23@gmail.com</a>
