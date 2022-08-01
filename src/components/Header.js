@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className='header'>
             <h1>
-                Charlotte Dige portfolio
+                Charlotte Dige's web application portfolio
             </h1>
         </header>
     )
