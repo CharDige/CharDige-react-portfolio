@@ -33,12 +33,16 @@ export default function Contact() {
         if (!validateEmail(email)) {
             setErrorMessage("Oops! Your email doesn't appear to be valid. How about another one?")
             return;
+        } else {
+            setErrorMessage('');
         }
 
         // Check if name or message fields have any input
         if (!name || !email || !message) {
             setErrorMessage("You've missed a spot! Please fill out all fields");
             return;
+        } else {
+            setErrorMessage('');
         }
 
         // Log to the console that it's been submitted
@@ -63,29 +67,29 @@ export default function Contact() {
                     Got a challenge I can help with, a question about my coding skills, or maybe you just want to ask about me favourite book?
                     <br></br>
                     <br></br>
-                    Fill out and submit the below form to get into contact with me. Or, flick me an email at <a href="mailto:chardige23@gmail.com">chardige23@gmail</a>
+                    Fill out and submit the below form to get into contact with me. Or, flick me an email at <a href="mailto:chardige23@gmail.com">chardige23@gmail.com</a>
                 </p>
 
-                <form>
+                <form className='form-margin'>
                     <div className="mb-3">
-                        <label htmlFor="name" className="form-label">Your name</label>
-                        <input value={name} name="name" onChange={handleInputChange} type="text" className="form-control" id="name" aria-describedby="emailHelp" placeholder="Name" />
+                        <label htmlFor="name" className="form-label label-style">Your name</label>
+                        <input value={name} name="name" onChange={handleInputChange} type="text" className="form-control input-style" id="name" aria-describedby="emailHelp" placeholder="Name" />
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="email" className="form-label">Email</label>
-                        <input value={email} name="email" onChange={handleInputChange} type="email" className="form-control" id="email" placeholder='Email' />
+                        <label htmlFor="email" className="form-label label-style">Email</label>
+                        <input value={email} name="email" onChange={handleInputChange} type="email" className="form-control input-style" id="email" placeholder='Email' />
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="message" className="form-label">Your message</label>
-                        <input value={message} name="message" onChange={handleInputChange} type="text" className="form-control" id="message" placeholder='Message' />
+                        <label htmlFor="message" className="form-label label-style">Your message</label>
+                        <input value={message} name="message" onChange={handleInputChange} type="text" className="form-control input-style" id="message" placeholder='Message' />
                     </div>
-                    <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>Submit</button>
+                    <button type="button" className="btn btn-style" onClick={handleFormSubmit}>Submit</button>
                 </form>
 
                 {errorMessage && (
                     <div>
                         <p className="error">{errorMessage}</p>
-                    </div>    
+                    </div>   
                 )}
             </div>
         </div>
