@@ -4,7 +4,7 @@
 
 ## Description
 
-Welcome to my web application portfolio, which has been created using React, amongst other web development technologies and tools.
+Welcome to my web application portfolio, which has been created using React among other web development technologies and tools.
 
 This was part of a project to showcase my skills using React while also having a place to put a spotlight on some of the web applications I have developed over the last six months.
 
@@ -82,13 +82,13 @@ This project used the following technologies to build it:
 
 ## Usage
 
-Below, you will find a GIF showing you my web application using React.
+Below, you will find a GIF showing my web application using React.
 
 > You can view the final, deployed application here: https://chardige.github.io/CharDige-react-portfolio/
 
 ### Final
 
-
+![GIF of deployed web application](./images/web-application.gif)
 
 ## Credits
 
