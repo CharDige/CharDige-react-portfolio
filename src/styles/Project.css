@@ -99,6 +99,36 @@ p a {
     font-size: 35px;
 }
 
+.label-style {
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--contrast-colour);
+}
+
+.form-margin {
+    width: 75%;
+}
+
+.form-control.input-style {
+    background-color: var(--light-colour);
+    font-size: 20px;
+    border: none;
+    border-bottom: 3px solid var(--dark-colour);
+    border-radius: 0;
+}
+
+.btn.btn-style {
+    background-color: var(--contrast-colour);
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 0;
+    padding: 10px 60px;
+}
+
+.error {
+    padding-top: 20px;
+}
+
 /* id selectors */
 #margin-style {
     margin-left: 10px;
@@ -108,10 +138,27 @@ p a {
 /* Pseudo styling */
 .my-work-title a:hover {
     color: var(--link-colour);
+    text-decoration: none;
 }
 
 p a:hover {
     color: var(--link-colour);
+    text-decoration: none;
+}
+
+.form-control.input-style:focus {
+    box-shadow: none;
+    border-color: var(--yellow);
+}
+
+.btn.btn-style:hover {
+    background-color: var(--link-colour);
+    border-color: var(--link-colour);
+}
+
+.btn.btn-style:focus {
+    background-color: var(--link-colour);
+    border-color: var(--link-colour);
 }
 
 /* Media queries for responsive web application for a large smartphones */
@@ -122,5 +169,9 @@ p a:hover {
 
     .left-border {
         padding-left: 10px !important;
+    }
+
+    .form-margin {
+        width: 100%;
     }
 }
