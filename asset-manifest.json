@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CharDige-react-portfolio/static/css/main.4db743eb.css",
-    "main.js": "/CharDige-react-portfolio/static/js/main.72024d88.js",
+    "main.js": "/CharDige-react-portfolio/static/js/main.ad74a23e.js",
     "static/media/my-photo.jpg": "/CharDige-react-portfolio/static/media/my-photo.add6fbbc0c37b7d02164.jpg",
     "static/media/travel-planner.jpg": "/CharDige-react-portfolio/static/media/travel-planner.6fce0e91894d2e448d46.jpg",
     "static/media/sklhub.PNG": "/CharDige-react-portfolio/static/media/sklhub.2686ba744b2eb6c3b11d.PNG",
@@ -15,10 +15,10 @@
     "static/media/jate.PNG": "/CharDige-react-portfolio/static/media/jate.3528229a15ed932dd65f.PNG",
     "index.html": "/CharDige-react-portfolio/index.html",
     "main.4db743eb.css.map": "/CharDige-react-portfolio/static/css/main.4db743eb.css.map",
-    "main.72024d88.js.map": "/CharDige-react-portfolio/static/js/main.72024d88.js.map"
+    "main.ad74a23e.js.map": "/CharDige-react-portfolio/static/js/main.ad74a23e.js.map"
   },
   "entrypoints": [
     "static/css/main.4db743eb.css",
-    "static/js/main.72024d88.js"
+    "static/js/main.ad74a23e.js"
   ]
 }
