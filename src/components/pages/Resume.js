@@ -11,11 +11,6 @@ export default function Resume() {
             </div>
 
             <div className='col-12 col-md-9 left-border'>
-                <p>
-                    <a href={resume} target='_blank' rel="noreferrer">Download a copy of my resume</a>.
-                    <br></br>
-                    <br></br>
-                </p>
                 <h3 className='resume-title'>
                     Coding languages and tools
                 </h3>
